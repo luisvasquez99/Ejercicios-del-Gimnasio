@@ -42,10 +42,12 @@
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label4 = new System.Windows.Forms.Label();
             this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbocultar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbmostrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.SuspendLayout();
             // 
             // btncontinuar
@@ -53,7 +55,7 @@
             this.btncontinuar.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncontinuar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btncontinuar.Location = new System.Drawing.Point(257, 258);
-            this.btncontinuar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btncontinuar.Margin = new System.Windows.Forms.Padding(4);
             this.btncontinuar.Name = "btncontinuar";
             this.btncontinuar.Size = new System.Drawing.Size(104, 38);
             this.btncontinuar.TabIndex = 7;
@@ -66,7 +68,7 @@
             this.btnlimpiar.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlimpiar.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
             this.btnlimpiar.Location = new System.Drawing.Point(148, 258);
-            this.btnlimpiar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnlimpiar.Margin = new System.Windows.Forms.Padding(4);
             this.btnlimpiar.Name = "btnlimpiar";
             this.btnlimpiar.Size = new System.Drawing.Size(104, 37);
             this.btnlimpiar.TabIndex = 6;
@@ -90,7 +92,7 @@
             // 
             this.tbxcontra.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.tbxcontra.Location = new System.Drawing.Point(175, 181);
-            this.tbxcontra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.tbxcontra.Margin = new System.Windows.Forms.Padding(4);
             this.tbxcontra.Multiline = true;
             this.tbxcontra.Name = "tbxcontra";
             this.tbxcontra.PasswordChar = '*';
@@ -102,7 +104,7 @@
             // 
             this.Tbxusuario.BackColor = System.Drawing.Color.MediumSlateBlue;
             this.Tbxusuario.Location = new System.Drawing.Point(172, 130);
-            this.Tbxusuario.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Tbxusuario.Margin = new System.Windows.Forms.Padding(4);
             this.Tbxusuario.Multiline = true;
             this.Tbxusuario.Name = "Tbxusuario";
             this.Tbxusuario.Size = new System.Drawing.Size(221, 32);
@@ -136,7 +138,7 @@
             // button1
             // 
             this.button1.Location = new System.Drawing.Point(171, 304);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(179, 28);
             this.button1.TabIndex = 29;
@@ -147,7 +149,7 @@
             // 
             this.pictureBox2.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_10_26_150707;
             this.pictureBox2.Location = new System.Drawing.Point(0, -2);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox2.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(105, 74);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -158,7 +160,7 @@
             // 
             this.pbocultar.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211422;
             this.pbocultar.Location = new System.Drawing.Point(353, 177);
-            this.pbocultar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbocultar.Margin = new System.Windows.Forms.Padding(4);
             this.pbocultar.Name = "pbocultar";
             this.pbocultar.Size = new System.Drawing.Size(40, 37);
             this.pbocultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -170,7 +172,7 @@
             // 
             this.pbmostrar.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211706;
             this.pbmostrar.Location = new System.Drawing.Point(353, 177);
-            this.pbmostrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pbmostrar.Margin = new System.Windows.Forms.Padding(4);
             this.pbmostrar.Name = "pbmostrar";
             this.pbmostrar.Size = new System.Drawing.Size(40, 37);
             this.pbmostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -182,7 +184,7 @@
             // 
             this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_20_112434;
             this.pictureBox1.Location = new System.Drawing.Point(0, -2);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(525, 427);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -208,11 +210,20 @@
             this.button2.Text = "button2";
             this.button2.UseVisualStyleBackColor = true;
             // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Location = new System.Drawing.Point(440, 153);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(55, 50);
+            this.pictureBox3.TabIndex = 32;
+            this.pictureBox3.TabStop = false;
+            // 
             // formlogin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(525, 423);
+            this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.button1);
@@ -227,13 +238,14 @@
             this.Controls.Add(this.btnlimpiar);
             this.Controls.Add(this.pbocultar);
             this.Controls.Add(this.pictureBox1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "formlogin";
             this.Text = "Login";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbocultar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pbmostrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -255,6 +267,7 @@
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox3;
     }
 }
 
