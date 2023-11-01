@@ -99,5 +99,15 @@ namespace Ejecicios_del_Gym.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_10_31_132810 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-10-31 132810", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

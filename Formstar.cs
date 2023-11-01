@@ -10,11 +10,18 @@ using System.Windows.Forms;
 
 namespace Ejecicios_del_Gym
 {
-    public partial class Form2 : Form
+    public partial class Formstar : Form
     {
-        public Form2()
+        public Formstar()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            formlogin form1 = new formlogin();
+            this.Hide();
+            form1.Show();
         }
     }
 }

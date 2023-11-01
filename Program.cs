@@ -16,7 +16,7 @@ namespace Ejecicios_del_Gym
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new formlogin());
+            Application.Run(new Formstar());
         }
     }
 }
