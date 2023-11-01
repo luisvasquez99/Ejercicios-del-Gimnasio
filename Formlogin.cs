@@ -64,7 +64,7 @@ namespace Ejecicios_del_Gym
 
                 if (Tbxusuario.Text == "Admin" && tbxcontra.Text == "Admin10")
                 {
-                    Formstar form1 = new Formstar();
+                    Form_grupos_musculares form1 = new Form_grupos_musculares();
                     this.Hide();
                     form1.Show();
 
