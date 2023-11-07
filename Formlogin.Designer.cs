@@ -135,7 +135,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_10_26_150707;
+            this.pictureBox2.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_10_31_132810;
             this.pictureBox2.Location = new System.Drawing.Point(0, -2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(79, 60);
