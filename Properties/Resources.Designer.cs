@@ -149,5 +149,25 @@ namespace Ejecicios_del_Gym.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_09_115841 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-09 115841", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_09_120137 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-09 120137", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }

@@ -42,5 +42,18 @@ namespace Ejecicios_del_Gym
             this.Hide();
             form1.Show();
         }
+
+        private void Form_grupos_musculares_Load(object sender, EventArgs e)
+        {
+                this.FormClosed += new FormClosedEventHandler(closeform);
+            }
+            private void closeform(object sender, FormClosedEventArgs e)
+            {
+                Formadmin fmrprincipal = new Formadmin();
+                this.Hide();
+                fmrprincipal.Show();
+
+            }
+        }
     }
-}
+

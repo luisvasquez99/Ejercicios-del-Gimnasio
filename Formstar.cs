@@ -19,7 +19,7 @@ namespace Ejecicios_del_Gym
 
         private void button1_Click(object sender, EventArgs e)
         {
-            formlogin form1 = new formlogin();
+            Formadmin form1 = new Formadmin();
             this.Hide();
             form1.Show();
         }

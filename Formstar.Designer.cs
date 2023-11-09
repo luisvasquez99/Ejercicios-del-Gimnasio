@@ -87,9 +87,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_10_31_132810;
-            this.pictureBox2.Location = new System.Drawing.Point(191, 88);
+            this.pictureBox2.Location = new System.Drawing.Point(174, 66);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(171, 123);
+            this.pictureBox2.Size = new System.Drawing.Size(195, 145);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 3;
             this.pictureBox2.TabStop = false;

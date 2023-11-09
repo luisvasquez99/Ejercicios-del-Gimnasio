@@ -128,7 +128,7 @@
             this.button1.BackColor = System.Drawing.Color.Transparent;
             this.button1.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.button1.Location = new System.Drawing.Point(259, 81);
+            this.button1.Location = new System.Drawing.Point(265, 82);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(191, 52);
             this.button1.TabIndex = 1;
@@ -150,7 +150,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(716, 450);
+            this.ClientSize = new System.Drawing.Size(717, 450);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -162,6 +162,7 @@
             this.Controls.Add(this.pictureBox1);
             this.Name = "Form_grupos_musculares";
             this.Text = "Form_grupos_musculares";
+            this.Load += new System.EventHandler(this.Form_grupos_musculares_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

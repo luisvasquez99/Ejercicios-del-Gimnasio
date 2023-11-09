@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.data_rutina_semanal = new System.Windows.Forms.DataGridView();
             this.label1 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
@@ -44,16 +44,29 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.collunes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colmar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colmier = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coljue = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colvier = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            ((System.ComponentModel.ISupportInitialize)(this.data_rutina_semanal)).BeginInit();
             this.SuspendLayout();
             // 
-            // dataGridView1
+            // data_rutina_semanal
             // 
-            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(298, 103);
-            this.dataGridView1.Name = "dataGridView1";
-            this.dataGridView1.Size = new System.Drawing.Size(437, 172);
-            this.dataGridView1.TabIndex = 0;
+            this.data_rutina_semanal.Anchor = System.Windows.Forms.AnchorStyles.None;
+            this.data_rutina_semanal.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data_rutina_semanal.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.collunes,
+            this.colmar,
+            this.colmier,
+            this.coljue,
+            this.colvier});
+            this.data_rutina_semanal.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.data_rutina_semanal.Location = new System.Drawing.Point(245, 107);
+            this.data_rutina_semanal.Name = "data_rutina_semanal";
+            this.data_rutina_semanal.Size = new System.Drawing.Size(543, 200);
+            this.data_rutina_semanal.TabIndex = 0;
             // 
             // label1
             // 
@@ -177,11 +190,36 @@
             this.label8.TabIndex = 15;
             this.label8.Text = "Rutina Semanal";
             // 
+            // collunes
+            // 
+            this.collunes.HeaderText = "Lunes";
+            this.collunes.Name = "collunes";
+            // 
+            // colmar
+            // 
+            this.colmar.HeaderText = "Martes";
+            this.colmar.Name = "colmar";
+            // 
+            // colmier
+            // 
+            this.colmier.HeaderText = "Miércoles";
+            this.colmier.Name = "colmier";
+            // 
+            // coljue
+            // 
+            this.coljue.HeaderText = "Jueves";
+            this.coljue.Name = "coljue";
+            // 
+            // colvier
+            // 
+            this.colvier.HeaderText = "Viernes";
+            this.colvier.Name = "colvier";
+            // 
             // Data
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(871, 450);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.label6);
@@ -197,10 +235,11 @@
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.label1);
-            this.Controls.Add(this.dataGridView1);
+            this.Controls.Add(this.data_rutina_semanal);
             this.Name = "Data";
             this.Text = "Data";
-            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.Load += new System.EventHandler(this.Data_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.data_rutina_semanal)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -208,7 +247,7 @@
 
         #endregion
 
-        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.DataGridView data_rutina_semanal;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
@@ -224,5 +263,10 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.DataGridViewTextBoxColumn collunes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colmar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colmier;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coljue;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colvier;
     }
 }

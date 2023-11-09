@@ -16,5 +16,17 @@ namespace Ejecicios_del_Gym
         {
             InitializeComponent();
         }
+
+        private void Data_Load(object sender, EventArgs e)
+        {
+
+            this.FormClosed += new FormClosedEventHandler(closeform);
+        }
+        private void closeform(object sender, FormClosedEventArgs e)
+        {
+            Form_grupos_musculares fmrprincipal = new Form_grupos_musculares();
+            this.Hide();
+            fmrprincipal.Show();
+        }
     }
 }
