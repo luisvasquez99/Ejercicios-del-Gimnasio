@@ -69,7 +69,7 @@ namespace Ejecicios_del_Gym
             if (!controlTimer)
             {
                 panel_contenedor.Left += 10;
-                panel_inicio.BringToFront();
+                panel_registroo.BringToFront();
                 if (panel_contenedor.Left == 400)
                 {
                     timer1.Stop();
@@ -79,11 +79,11 @@ namespace Ejecicios_del_Gym
             else
             {
                 panel_contenedor.Left -= 10;
-                panel_registroo.BringToFront();
+                panel_inicio.BringToFront();
                 if (panel_contenedor.Left == 0)
                 {
                     timer1.Stop();
-                    controlTimer = true;
+                    controlTimer = false;
                 }
             }
         }

@@ -169,5 +169,45 @@ namespace Ejecicios_del_Gym.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_10_111547 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-10 111547", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_10_111703 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-10 111703", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_10_111752 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-10 111752", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_10_112051 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-10 112051", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
     }
 }
