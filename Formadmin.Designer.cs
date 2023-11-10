@@ -32,9 +32,8 @@
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.panel_login = new System.Windows.Forms.Panel();
             this.panel_contenedor = new System.Windows.Forms.Panel();
-            this.panel_registroo = new System.Windows.Forms.Panel();
             this.panel_inicio = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
+            this.btn_acceder_formadmin = new System.Windows.Forms.Button();
             this.panel_contra_iniciio = new System.Windows.Forms.Panel();
             this.tbx_contra_ini = new System.Windows.Forms.TextBox();
             this.label14 = new System.Windows.Forms.Label();
@@ -43,6 +42,7 @@
             this.label15 = new System.Windows.Forms.Label();
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
+            this.panel_registroo = new System.Windows.Forms.Panel();
             this.btnregis = new System.Windows.Forms.Button();
             this.panel_contra = new System.Windows.Forms.Panel();
             this.tbx_contraseña = new System.Windows.Forms.TextBox();
@@ -66,9 +66,9 @@
             this.label8 = new System.Windows.Forms.Label();
             this.panel_login.SuspendLayout();
             this.panel_contenedor.SuspendLayout();
-            this.panel_registroo.SuspendLayout();
             this.panel_inicio.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.panel_registroo.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -104,39 +104,13 @@
             this.panel_contenedor.Size = new System.Drawing.Size(400, 433);
             this.panel_contenedor.TabIndex = 30;
             // 
-            // panel_registroo
-            // 
-            this.panel_registroo.BackColor = System.Drawing.Color.Black;
-            this.panel_registroo.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
-            this.panel_registroo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel_registroo.Controls.Add(this.btnregis);
-            this.panel_registroo.Controls.Add(this.panel_contra);
-            this.panel_registroo.Controls.Add(this.tbx_contraseña);
-            this.panel_registroo.Controls.Add(this.label13);
-            this.panel_registroo.Controls.Add(this.panel_usuario);
-            this.panel_registroo.Controls.Add(this.tbx_usuario);
-            this.panel_registroo.Controls.Add(this.label12);
-            this.panel_registroo.Controls.Add(this.panel_correo);
-            this.panel_registroo.Controls.Add(this.tbx_correo);
-            this.panel_registroo.Controls.Add(this.label11);
-            this.panel_registroo.Controls.Add(this.panel_nombre);
-            this.panel_registroo.Controls.Add(this.tbx_nom);
-            this.panel_registroo.Controls.Add(this.label10);
-            this.panel_registroo.Controls.Add(this.label9);
-            this.panel_registroo.Controls.Add(this.pictureBox1);
-            this.panel_registroo.Location = new System.Drawing.Point(0, 0);
-            this.panel_registroo.Name = "panel_registroo";
-            this.panel_registroo.Size = new System.Drawing.Size(400, 433);
-            this.panel_registroo.TabIndex = 31;
-            this.panel_registroo.Tag = "registro";
-            // 
             // panel_inicio
             // 
             this.panel_inicio.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.panel_inicio.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
             this.panel_inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel_inicio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.panel_inicio.Controls.Add(this.button1);
+            this.panel_inicio.Controls.Add(this.btn_acceder_formadmin);
             this.panel_inicio.Controls.Add(this.panel_contra_iniciio);
             this.panel_inicio.Controls.Add(this.tbx_contra_ini);
             this.panel_inicio.Controls.Add(this.label14);
@@ -151,21 +125,22 @@
             this.panel_inicio.TabIndex = 32;
             this.panel_inicio.Tag = "panel_ini";
             // 
-            // button1
+            // btn_acceder_formadmin
             // 
-            this.button1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.button1.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ScrollBar;
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.Black;
-            this.button1.Location = new System.Drawing.Point(97, 231);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(196, 32);
-            this.button1.TabIndex = 16;
-            this.button1.Text = "Acceder";
-            this.button1.UseVisualStyleBackColor = false;
+            this.btn_acceder_formadmin.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_acceder_formadmin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_acceder_formadmin.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btn_acceder_formadmin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_acceder_formadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_acceder_formadmin.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_acceder_formadmin.ForeColor = System.Drawing.Color.Black;
+            this.btn_acceder_formadmin.Location = new System.Drawing.Point(97, 231);
+            this.btn_acceder_formadmin.Name = "btn_acceder_formadmin";
+            this.btn_acceder_formadmin.Size = new System.Drawing.Size(196, 32);
+            this.btn_acceder_formadmin.TabIndex = 16;
+            this.btn_acceder_formadmin.Text = "Acceder";
+            this.btn_acceder_formadmin.UseVisualStyleBackColor = false;
+            this.btn_acceder_formadmin.Click += new System.EventHandler(this.btn_acceder_formadmin_Click);
             // 
             // panel_contra_iniciio
             // 
@@ -253,6 +228,32 @@
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            // 
+            // panel_registroo
+            // 
+            this.panel_registroo.BackColor = System.Drawing.Color.Black;
+            this.panel_registroo.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
+            this.panel_registroo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel_registroo.Controls.Add(this.btnregis);
+            this.panel_registroo.Controls.Add(this.panel_contra);
+            this.panel_registroo.Controls.Add(this.tbx_contraseña);
+            this.panel_registroo.Controls.Add(this.label13);
+            this.panel_registroo.Controls.Add(this.panel_usuario);
+            this.panel_registroo.Controls.Add(this.tbx_usuario);
+            this.panel_registroo.Controls.Add(this.label12);
+            this.panel_registroo.Controls.Add(this.panel_correo);
+            this.panel_registroo.Controls.Add(this.tbx_correo);
+            this.panel_registroo.Controls.Add(this.label11);
+            this.panel_registroo.Controls.Add(this.panel_nombre);
+            this.panel_registroo.Controls.Add(this.tbx_nom);
+            this.panel_registroo.Controls.Add(this.label10);
+            this.panel_registroo.Controls.Add(this.label9);
+            this.panel_registroo.Controls.Add(this.pictureBox1);
+            this.panel_registroo.Location = new System.Drawing.Point(0, 0);
+            this.panel_registroo.Name = "panel_registroo";
+            this.panel_registroo.Size = new System.Drawing.Size(400, 433);
+            this.panel_registroo.TabIndex = 31;
+            this.panel_registroo.Tag = "registro";
             // 
             // btnregis
             // 
@@ -510,18 +511,20 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(823, 453);
+            this.BackColor = System.Drawing.Color.Lime;
+            this.ClientSize = new System.Drawing.Size(784, 396);
             this.Controls.Add(this.panel_login);
             this.Name = "Formadmin";
             this.Text = "Formadmin";
+            this.TransparencyKey = System.Drawing.Color.Lime;
             this.panel_login.ResumeLayout(false);
             this.panel_login.PerformLayout();
             this.panel_contenedor.ResumeLayout(false);
-            this.panel_registroo.ResumeLayout(false);
-            this.panel_registroo.PerformLayout();
             this.panel_inicio.ResumeLayout(false);
             this.panel_inicio.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
+            this.panel_registroo.ResumeLayout(false);
+            this.panel_registroo.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
 
@@ -553,7 +556,7 @@
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Button btnregis;
         private System.Windows.Forms.Panel panel_inicio;
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button btn_acceder_formadmin;
         private System.Windows.Forms.Panel panel_contra_iniciio;
         private System.Windows.Forms.TextBox tbx_contra_ini;
         private System.Windows.Forms.Label label14;

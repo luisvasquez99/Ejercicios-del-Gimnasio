@@ -23,5 +23,10 @@ namespace Ejecicios_del_Gym
             this.Hide();
             form1.Show();
         }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

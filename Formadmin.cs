@@ -46,7 +46,7 @@ namespace Ejecicios_del_Gym
             TextBox tx = sender as TextBox;
             foreach (Control ctr in panel_registroo.Controls)
             {
-                if(ctr is Panel && ctr.Name == "panel" + tx.Tag.ToString())
+                if (ctr is Panel && ctr.Name == "panel" + tx.Tag.ToString())
                 {
                     ctr.BackColor = Color.White;
                 }
@@ -96,6 +96,27 @@ namespace Ejecicios_del_Gym
         private void btnacceder_Click(object sender, EventArgs e)
         {
             timer1.Start();
+        }
+        private void Formadmin_Load(object sender, EventArgs e)
+
+        {
+            this.FormClosed += new FormClosedEventHandler(closeform);
+        }
+        private void closeform(object sender, FormClosedEventArgs e)
+        {
+            Formadmin fmrprincipal = new Formadmin();
+            this.Hide();
+            fmrprincipal.Show();
+
+
+        }
+
+        private void btn_acceder_formadmin_Click(object sender, EventArgs e)
+        {
+            
+            Form_grupos_musculares form1 = new Form_grupos_musculares();
+            this.Hide();
+            form1.Show();
         }
     }
 }
