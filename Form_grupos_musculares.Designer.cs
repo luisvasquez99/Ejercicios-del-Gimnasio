@@ -37,19 +37,23 @@
             this.btn_tren_supe = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 14.25F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.label1.ImageAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.label1.Location = new System.Drawing.Point(163, 400);
+            this.label1.ForeColor = System.Drawing.Color.Black;
+            this.label1.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label1.Location = new System.Drawing.Point(163, 371);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(380, 22);
             this.label1.TabIndex = 10;
@@ -57,28 +61,28 @@
             // 
             // pictureBox4
             // 
-            this.pictureBox4.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_01_124820;
-            this.pictureBox4.Location = new System.Drawing.Point(290, 191);
+            this.pictureBox4.Image = global::Ejecicios_del_Gym.Properties.Resources.On_Air_MAISONS_ALFORT;
+            this.pictureBox4.Location = new System.Drawing.Point(488, 113);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(134, 116);
+            this.pictureBox4.Size = new System.Drawing.Size(134, 117);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox4.TabIndex = 9;
             this.pictureBox4.TabStop = false;
             // 
             // pictureBox3
             // 
-            this.pictureBox3.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_01_124655;
-            this.pictureBox3.Location = new System.Drawing.Point(536, 150);
+            this.pictureBox3.Image = global::Ejecicios_del_Gym.Properties.Resources.Спортзал_для_Кроссфита__Crossfit_Gym_;
+            this.pictureBox3.Location = new System.Drawing.Point(292, 113);
             this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(134, 116);
+            this.pictureBox3.Size = new System.Drawing.Size(134, 117);
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox3.TabIndex = 8;
             this.pictureBox3.TabStop = false;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_01_124542;
-            this.pictureBox2.Location = new System.Drawing.Point(37, 150);
+            this.pictureBox2.Image = global::Ejecicios_del_Gym.Properties.Resources._59aba2d7_c11d_4b8e_b47f_65b73bdbadcc;
+            this.pictureBox2.Location = new System.Drawing.Point(91, 113);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(134, 117);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -88,9 +92,9 @@
             // btn_tren_infe
             // 
             this.btn_tren_infe.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_tren_infe.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.btn_tren_infe.ImageAlign = System.Drawing.ContentAlignment.TopRight;
-            this.btn_tren_infe.Location = new System.Drawing.Point(549, 121);
+            this.btn_tren_infe.ForeColor = System.Drawing.Color.Red;
+            this.btn_tren_infe.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.btn_tren_infe.Location = new System.Drawing.Point(301, 84);
             this.btn_tren_infe.Name = "btn_tren_infe";
             this.btn_tren_infe.Size = new System.Drawing.Size(106, 23);
             this.btn_tren_infe.TabIndex = 6;
@@ -101,8 +105,9 @@
             // btn_cardio
             // 
             this.btn_cardio.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_cardio.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.btn_cardio.Location = new System.Drawing.Point(323, 162);
+            this.btn_cardio.ForeColor = System.Drawing.Color.Red;
+            this.btn_cardio.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.btn_cardio.Location = new System.Drawing.Point(523, 84);
             this.btn_cardio.Name = "btn_cardio";
             this.btn_cardio.Size = new System.Drawing.Size(75, 23);
             this.btn_cardio.TabIndex = 3;
@@ -113,9 +118,9 @@
             // btn_tren_supe
             // 
             this.btn_tren_supe.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_tren_supe.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.btn_tren_supe.ImageAlign = System.Drawing.ContentAlignment.TopLeft;
-            this.btn_tren_supe.Location = new System.Drawing.Point(51, 121);
+            this.btn_tren_supe.ForeColor = System.Drawing.Color.Red;
+            this.btn_tren_supe.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.btn_tren_supe.Location = new System.Drawing.Point(106, 84);
             this.btn_tren_supe.Name = "btn_tren_supe";
             this.btn_tren_supe.Size = new System.Drawing.Size(107, 23);
             this.btn_tren_supe.TabIndex = 2;
@@ -126,11 +131,13 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Transparent;
-            this.button1.Font = new System.Drawing.Font("Consolas", 12F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.button1.Location = new System.Drawing.Point(265, 82);
+            this.button1.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 15.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button1.ForeColor = System.Drawing.Color.Black;
+            this.button1.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.button1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.button1.Location = new System.Drawing.Point(167, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(191, 52);
+            this.button1.Size = new System.Drawing.Size(366, 35);
             this.button1.TabIndex = 1;
             this.button1.Text = "¿Que deseas entrenar?";
             this.button1.UseVisualStyleBackColor = false;
@@ -138,19 +145,43 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
-            this.pictureBox1.Location = new System.Drawing.Point(-11, -3);
+            this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.pictureBox1.Location = new System.Drawing.Point(-2, -3);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(728, 454);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // button2
+            // 
+            this.button2.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button2.ForeColor = System.Drawing.Color.Red;
+            this.button2.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.button2.Location = new System.Drawing.Point(258, 248);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(190, 23);
+            this.button2.TabIndex = 11;
+            this.button2.Text = "Rutina Completa";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Ejecicios_del_Gym.Properties.Resources.Спортзал_для_Кроссфита__Crossfit_Gym_;
+            this.pictureBox5.Location = new System.Drawing.Point(301, 277);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(107, 91);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pictureBox5.TabIndex = 12;
+            this.pictureBox5.TabStop = false;
+            // 
             // Form_grupos_musculares
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(717, 450);
+            this.Controls.Add(this.pictureBox5);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -167,6 +198,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -183,5 +215,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

@@ -118,6 +118,25 @@ namespace Ejecicios_del_Gym
             this.Hide();
             form1.Show();
         }
+
+        private void btnregis_Click(object sender, EventArgs e)
+        {
+            Form_grupos_musculares form1 = new Form_grupos_musculares();
+            this.Hide();
+            form1.Show();
+        }
+
+        private void tbx_nom_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (!(char.IsLetter(e.KeyChar)) && (e.KeyChar != (char)Keys.Back))
+            {
+                MessageBox.Show("Unicamente letras", "Advertencia", MessageBoxButtons.OK, MessageBoxIcon.Exclamation);
+                e.Handled = true;
+                return;
+
+            }
+
+        }
     }
 }
             

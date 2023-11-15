@@ -47,11 +47,23 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
-    <Compile Include="Data.cs">
+    <Compile Include="Data_cardio.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Data.Designer.cs">
-      <DependentUpon>Data.cs</DependentUpon>
+    <Compile Include="Data_cardio.Designer.cs">
+      <DependentUpon>Data_cardio.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_inferior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_inferior.Designer.cs">
+      <DependentUpon>Data_inferior.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Data_superior.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Data_superior.Designer.cs">
+      <DependentUpon>Data_superior.cs</DependentUpon>
     </Compile>
     <Compile Include="Formadmin.cs">
       <SubType>Form</SubType>
@@ -73,8 +85,14 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Data.resx">
-      <DependentUpon>Data.cs</DependentUpon>
+    <EmbeddedResource Include="Data_cardio.resx">
+      <DependentUpon>Data_cardio.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_inferior.resx">
+      <DependentUpon>Data_inferior.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Data_superior.resx">
+      <DependentUpon>Data_superior.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formadmin.resx">
       <DependentUpon>Formadmin.cs</DependentUpon>
@@ -161,6 +179,33 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\Captura de pantalla 2023-11-10 141615.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-11-10 232409.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9d95a5d0-abca-4e3d-b457-70bdde285c33.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gym_ Metal dumbbells in a row Sport and fitness concept.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Suppliers, Manufacturers, Exporters &amp; Importers.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Vector _ Product presentation podium, white stage, empty white pedestal.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Pared de ladrillo con fondo de focos _ Vector Premium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\On Air MAISONS ALFORT.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\59aba2d7-c11d-4b8e-b47f-65b73bdbadcc.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Спортзал для Кроссфита %28Crossfit Gym%29.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

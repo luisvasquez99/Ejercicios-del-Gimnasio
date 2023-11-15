@@ -43,7 +43,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_registroo = new System.Windows.Forms.Panel();
-            this.btnregis = new System.Windows.Forms.Button();
+            this.btn_registrar_Formadmin = new System.Windows.Forms.Button();
             this.panel_contra = new System.Windows.Forms.Panel();
             this.tbx_contraseña = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
@@ -80,7 +80,7 @@
             // panel_login
             // 
             this.panel_login.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.panel_login.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_28_173341;
+            this.panel_login.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
             this.panel_login.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel_login.Controls.Add(this.panel_contenedor);
             this.panel_login.Controls.Add(this.label2);
@@ -234,7 +234,7 @@
             this.panel_registroo.BackColor = System.Drawing.Color.Black;
             this.panel_registroo.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
             this.panel_registroo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.panel_registroo.Controls.Add(this.btnregis);
+            this.panel_registroo.Controls.Add(this.btn_registrar_Formadmin);
             this.panel_registroo.Controls.Add(this.panel_contra);
             this.panel_registroo.Controls.Add(this.tbx_contraseña);
             this.panel_registroo.Controls.Add(this.label13);
@@ -255,21 +255,22 @@
             this.panel_registroo.TabIndex = 31;
             this.panel_registroo.Tag = "registro";
             // 
-            // btnregis
+            // btn_registrar_Formadmin
             // 
-            this.btnregis.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.btnregis.FlatAppearance.BorderColor = System.Drawing.Color.Black;
-            this.btnregis.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ScrollBar;
-            this.btnregis.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
-            this.btnregis.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btnregis.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnregis.ForeColor = System.Drawing.Color.Black;
-            this.btnregis.Location = new System.Drawing.Point(92, 320);
-            this.btnregis.Name = "btnregis";
-            this.btnregis.Size = new System.Drawing.Size(196, 32);
-            this.btnregis.TabIndex = 16;
-            this.btnregis.Text = "Registrado";
-            this.btnregis.UseVisualStyleBackColor = false;
+            this.btn_registrar_Formadmin.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.btn_registrar_Formadmin.FlatAppearance.BorderColor = System.Drawing.Color.Black;
+            this.btn_registrar_Formadmin.FlatAppearance.MouseDownBackColor = System.Drawing.SystemColors.ScrollBar;
+            this.btn_registrar_Formadmin.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Silver;
+            this.btn_registrar_Formadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.btn_registrar_Formadmin.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_registrar_Formadmin.ForeColor = System.Drawing.Color.Black;
+            this.btn_registrar_Formadmin.Location = new System.Drawing.Point(92, 320);
+            this.btn_registrar_Formadmin.Name = "btn_registrar_Formadmin";
+            this.btn_registrar_Formadmin.Size = new System.Drawing.Size(196, 32);
+            this.btn_registrar_Formadmin.TabIndex = 16;
+            this.btn_registrar_Formadmin.Text = "Registrado";
+            this.btn_registrar_Formadmin.UseVisualStyleBackColor = false;
+            this.btn_registrar_Formadmin.Click += new System.EventHandler(this.btnregis_Click);
             // 
             // panel_contra
             // 
@@ -389,6 +390,7 @@
             this.tbx_nom.Size = new System.Drawing.Size(196, 16);
             this.tbx_nom.TabIndex = 4;
             this.tbx_nom.Tag = "_nombre";
+            this.tbx_nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbx_nom_KeyPress);
             // 
             // label10
             // 
@@ -405,7 +407,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Black;
+            this.label9.BackColor = System.Drawing.Color.Transparent;
             this.label9.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label9.ForeColor = System.Drawing.Color.WhiteSmoke;
             this.label9.Location = new System.Drawing.Point(165, 92);
@@ -512,7 +514,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
-            this.ClientSize = new System.Drawing.Size(784, 396);
+            this.ClientSize = new System.Drawing.Size(799, 432);
             this.Controls.Add(this.panel_login);
             this.Name = "Formadmin";
             this.Text = "Formadmin";
@@ -554,7 +556,7 @@
         private System.Windows.Forms.Panel panel_contra;
         private System.Windows.Forms.TextBox tbx_contraseña;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Button btnregis;
+        private System.Windows.Forms.Button btn_registrar_Formadmin;
         private System.Windows.Forms.Panel panel_inicio;
         private System.Windows.Forms.Button btn_acceder_formadmin;
         private System.Windows.Forms.Panel panel_contra_iniciio;

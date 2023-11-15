@@ -63,6 +63,26 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _59aba2d7_c11d_4b8e_b47f_65b73bdbadcc {
+            get {
+                object obj = ResourceManager.GetObject("59aba2d7-c11d-4b8e-b47f-65b73bdbadcc", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9d95a5d0_abca_4e3d_b457_70bdde285c33 {
+            get {
+                object obj = ResourceManager.GetObject("9d95a5d0-abca-4e3d-b457-70bdde285c33", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2023_09_08_211422 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2023-09-08 211422", resourceCulture);
@@ -236,6 +256,76 @@ namespace Ejecicios_del_Gym.Properties {
         internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_10_141615 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-10 141615", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_10_232409 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-10 232409", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Gym__Metal_dumbbells_in_a_row_Sport_and_fitness_concept {
+            get {
+                object obj = ResourceManager.GetObject("Gym_ Metal dumbbells in a row Sport and fitness concept", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap On_Air_MAISONS_ALFORT {
+            get {
+                object obj = ResourceManager.GetObject("On Air MAISONS ALFORT", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pared_de_ladrillo_con_fondo_de_focos___Vector_Premium {
+            get {
+                object obj = ResourceManager.GetObject("Pared de ladrillo con fondo de focos _ Vector Premium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal {
+            get {
+                object obj = ResourceManager.GetObject("Premium Vector _ Product presentation podium, white stage, empty white pedestal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Suppliers__Manufacturers__Exporters___Importers {
+            get {
+                object obj = ResourceManager.GetObject("Suppliers, Manufacturers, Exporters & Importers", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Спортзал_для_Кроссфита__Crossfit_Gym_ {
+            get {
+                object obj = ResourceManager.GetObject("Спортзал для Кроссфита (Crossfit Gym)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

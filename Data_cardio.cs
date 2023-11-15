@@ -10,16 +10,14 @@ using System.Windows.Forms;
 
 namespace Ejecicios_del_Gym
 {
-    public partial class Data : Form
+    public partial class Data_cardio : Form
     {
-        public Data()
+        public Data_cardio()
         {
             InitializeComponent();
         }
-
         private void Data_Load(object sender, EventArgs e)
         {
-
             this.FormClosed += new FormClosedEventHandler(closeform);
         }
         private void closeform(object sender, FormClosedEventArgs e)

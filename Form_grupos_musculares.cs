@@ -24,21 +24,21 @@ namespace Ejecicios_del_Gym
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Data form1 = new Data();
+            Data_superior form1 = new Data_superior ();
             this.Hide();
             form1.Show();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Data form1 = new Data();
+            Data_superior form1 = new Data_superior();
             this.Hide();
             form1.Show();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Data form1 = new Data();
+            Data_superior form1 = new Data_superior ();
             this.Hide();
             form1.Show();
         }
