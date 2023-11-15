@@ -207,5 +207,17 @@
   <ItemGroup>
     <None Include="Resources\Спортзал для Кроссфита %28Crossfit Gym%29.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Maqueta cartelera en blanco _ Vector Gratis.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Fondo de estudio abstracto fondo blanco y gris _ Vector Premium.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de pantalla 2023-11-15 141156.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43530069-344d-4818-b45b-1990707a55c4.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

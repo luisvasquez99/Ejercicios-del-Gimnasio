@@ -24,7 +24,7 @@ namespace Ejecicios_del_Gym
 
         private void button6_Click(object sender, EventArgs e)
         {
-            Data_superior form1 = new Data_superior ();
+            Data_inferior form1 = new Data_inferior();
             this.Hide();
             form1.Show();
         }
@@ -38,7 +38,7 @@ namespace Ejecicios_del_Gym
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Data_superior form1 = new Data_superior ();
+            Data_cardio form1 = new Data_cardio();
             this.Hide();
             form1.Show();
         }

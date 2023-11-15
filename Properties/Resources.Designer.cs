@@ -63,6 +63,16 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _43530069_344d_4818_b45b_1990707a55c4 {
+            get {
+                object obj = ResourceManager.GetObject("43530069-344d-4818-b45b-1990707a55c4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _59aba2d7_c11d_4b8e_b47f_65b73bdbadcc {
             get {
                 object obj = ResourceManager.GetObject("59aba2d7-c11d-4b8e-b47f-65b73bdbadcc", resourceCulture);
@@ -273,9 +283,39 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Captura_de_pantalla_2023_11_15_141156 {
+            get {
+                object obj = ResourceManager.GetObject("Captura de pantalla 2023-11-15 141156", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Fondo_de_estudio_abstracto_fondo_blanco_y_gris___Vector_Premium {
+            get {
+                object obj = ResourceManager.GetObject("Fondo de estudio abstracto fondo blanco y gris _ Vector Premium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Gym__Metal_dumbbells_in_a_row_Sport_and_fitness_concept {
             get {
                 object obj = ResourceManager.GetObject("Gym_ Metal dumbbells in a row Sport and fitness concept", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Maqueta_cartelera_en_blanco___Vector_Gratis {
+            get {
+                object obj = ResourceManager.GetObject("Maqueta cartelera en blanco _ Vector Gratis", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

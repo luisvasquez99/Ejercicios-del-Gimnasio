@@ -45,7 +45,19 @@ namespace Ejecicios_del_Gym
 
         private void btn_Agregar_Click(object sender, EventArgs e)
         {
-            data_superior_1.Rows.Add(com_lunes.Text, com_martes.Text, com_miercoles.Text, com_jueves.Text, com_viernes.Text, com_sabado.Text, com_domingo.Text);
+            int V = data_superior_1.Rows.Add();
+
+            data_superior_1.Rows[V].Cells[0].Value = com_lunes.Text;
+            data_superior_1.Rows[V].Cells[1].Value = com_martes.Text;
+            data_superior_1.Rows[V].Cells[2].Value = com_miercoles.Text;
+            data_superior_1.Rows[V].Cells[3].Value = com_jueves.Text;
+            data_superior_1.Rows[V].Cells[4].Value = com_viernes.Text; 
+            data_superior_1.Rows[V].Cells[5].Value = com_sabado.Text;
+            data_superior_1.Rows[V].Cells[6].Value = com_domingo.Text;
+
+
+
+
         }
 
         private void btn_Eliminar_Click(object sender, EventArgs e)
@@ -62,6 +74,12 @@ namespace Ejecicios_del_Gym
             com_miercoles.Text = data_superior_1[2, poc].Value.ToString();
             com_jueves.Text = data_superior_1[3, poc].Value.ToString();
             com_viernes.Text = data_superior_1[4, poc].Value.ToString();
+            com_sabado.Text = data_superior_1[5, poc].Value.ToString();
+            com_domingo.Text = data_superior_1[6, poc].Value.ToString();
         }
+
+        
+
+       
     }
 }
