@@ -65,6 +65,7 @@
     <Compile Include="Data_superior.Designer.cs">
       <DependentUpon>Data_superior.cs</DependentUpon>
     </Compile>
+    <Compile Include="Ejercicios.cs" />
     <Compile Include="Formadmin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -218,6 +219,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\43530069-344d-4818-b45b-1990707a55c4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Photo _ Dark red and brown studio background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Gym dumbbells on black background with copy sapce Gym dumbbells on black background with copy sapce Photograph taken from above_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\On air EVRY.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -37,7 +37,7 @@
             this.btn_tren_supe = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.btn_semanal = new System.Windows.Forms.Button();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -153,17 +153,17 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
-            // button2
+            // btn_semanal
             // 
-            this.button2.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.Red;
-            this.button2.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
-            this.button2.Location = new System.Drawing.Point(352, 271);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(190, 23);
-            this.button2.TabIndex = 11;
-            this.button2.Text = "Rutina Semanal";
-            this.button2.UseVisualStyleBackColor = true;
+            this.btn_semanal.Font = new System.Drawing.Font("Consolas", 9.75F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_semanal.ForeColor = System.Drawing.Color.Red;
+            this.btn_semanal.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
+            this.btn_semanal.Location = new System.Drawing.Point(352, 271);
+            this.btn_semanal.Name = "btn_semanal";
+            this.btn_semanal.Size = new System.Drawing.Size(190, 23);
+            this.btn_semanal.TabIndex = 11;
+            this.btn_semanal.Text = "Rutina Semanal";
+            this.btn_semanal.UseVisualStyleBackColor = true;
             // 
             // pictureBox5
             // 
@@ -181,7 +181,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(901, 512);
             this.Controls.Add(this.pictureBox5);
-            this.Controls.Add(this.button2);
+            this.Controls.Add(this.btn_semanal);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox4);
             this.Controls.Add(this.pictureBox3);
@@ -215,7 +215,7 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.PictureBox pictureBox4;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btn_semanal;
         private System.Windows.Forms.PictureBox pictureBox5;
     }
 }

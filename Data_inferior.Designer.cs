@@ -477,6 +477,8 @@
             // 
             // data_inferior_2
             // 
+            this.data_inferior_2.AllowDrop = true;
+            this.data_inferior_2.AllowUserToDeleteRows = false;
             this.data_inferior_2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.data_inferior_2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.data_inferior_2.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
@@ -490,6 +492,8 @@
             this.data_inferior_2.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.data_inferior_2.Location = new System.Drawing.Point(92, 247);
             this.data_inferior_2.Name = "data_inferior_2";
+            this.data_inferior_2.RightToLeft = System.Windows.Forms.RightToLeft.No;
+            this.data_inferior_2.RowHeadersVisible = false;
             this.data_inferior_2.Size = new System.Drawing.Size(732, 253);
             this.data_inferior_2.TabIndex = 24;
             this.data_inferior_2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_inferior_2_CellContentClick);

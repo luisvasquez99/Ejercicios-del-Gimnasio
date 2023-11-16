@@ -28,14 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
             this.data_superior_1 = new System.Windows.Forms.DataGridView();
-            this.collunes = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colmar = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colmier = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.coljue = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.colvier = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_saba = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.col_domi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -54,14 +53,40 @@
             this.btn_Agregar = new System.Windows.Forms.Button();
             this.btn_Eliminar = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.collunes = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colmar = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colmier = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.coljue = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.colvier = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_saba = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.col_domi = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.data_superior_1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // data_superior_1
             // 
+            this.data_superior_1.AllowDrop = true;
+            dataGridViewCellStyle1.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.White;
+            this.data_superior_1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             this.data_superior_1.Anchor = System.Windows.Forms.AnchorStyles.None;
-            this.data_superior_1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.data_superior_1.BackgroundColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.data_superior_1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.data_superior_1.CellBorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.None;
+            this.data_superior_1.ColumnHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.data_superior_1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.data_superior_1.ColumnHeadersHeight = 30;
             this.data_superior_1.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.collunes,
             this.colmar,
@@ -70,133 +95,138 @@
             this.colvier,
             this.col_saba,
             this.col_domi});
-            this.data_superior_1.GridColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.data_superior_1.Location = new System.Drawing.Point(102, 257);
+            this.data_superior_1.Cursor = System.Windows.Forms.Cursors.Hand;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            this.data_superior_1.DefaultCellStyle = dataGridViewCellStyle4;
+            this.data_superior_1.EnableHeadersVisualStyles = false;
+            this.data_superior_1.GridColor = System.Drawing.Color.Black;
+            this.data_superior_1.Location = new System.Drawing.Point(0, 241);
             this.data_superior_1.Name = "data_superior_1";
-            this.data_superior_1.Size = new System.Drawing.Size(732, 226);
-            this.data_superior_1.TabIndex = 0;
+            this.data_superior_1.RowHeadersBorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle5.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle5.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            this.data_superior_1.RowHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.data_superior_1.RowHeadersVisible = false;
+            dataGridViewCellStyle6.BackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle6.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.Maroon;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.White;
+            this.data_superior_1.RowsDefaultCellStyle = dataGridViewCellStyle6;
+            this.data_superior_1.RowTemplate.DefaultCellStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.data_superior_1.RowTemplate.DefaultCellStyle.ForeColor = System.Drawing.Color.White;
+            this.data_superior_1.RowTemplate.DefaultCellStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.data_superior_1.RowTemplate.DefaultCellStyle.SelectionForeColor = System.Drawing.Color.White;
+            this.data_superior_1.RowTemplate.Height = 25;
+            this.data_superior_1.Size = new System.Drawing.Size(912, 254);
+            this.data_superior_1.TabIndex = 24;
             this.data_superior_1.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.data_superior_1_CellContentClick);
-            // 
-            // collunes
-            // 
-            this.collunes.HeaderText = "Lunes";
-            this.collunes.Name = "collunes";
-            // 
-            // colmar
-            // 
-            this.colmar.HeaderText = "Martes";
-            this.colmar.Name = "colmar";
-            // 
-            // colmier
-            // 
-            this.colmier.HeaderText = "Miércoles";
-            this.colmier.Name = "colmier";
-            // 
-            // coljue
-            // 
-            this.coljue.HeaderText = "Jueves";
-            this.coljue.Name = "coljue";
-            // 
-            // colvier
-            // 
-            this.colvier.HeaderText = "Viernes";
-            this.colvier.Name = "colvier";
-            // 
-            // col_saba
-            // 
-            this.col_saba.HeaderText = "Sábado";
-            this.col_saba.Name = "col_saba";
-            // 
-            // col_domi
-            // 
-            this.col_domi.HeaderText = "Domingo";
-            this.col_domi.Name = "col_domi";
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.BackColor = System.Drawing.Color.Black;
+            this.label1.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.White;
             this.label1.Location = new System.Drawing.Point(171, 58);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(42, 15);
+            this.label1.Size = new System.Drawing.Size(48, 18);
             this.label1.TabIndex = 1;
             this.label1.Text = "Lunes";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.Gainsboro;
-            this.label2.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.BackColor = System.Drawing.Color.Black;
+            this.label2.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
             this.label2.Location = new System.Drawing.Point(164, 88);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(49, 15);
+            this.label2.Size = new System.Drawing.Size(56, 18);
             this.label2.TabIndex = 9;
             this.label2.Text = "Martes";
             // 
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Gainsboro;
-            this.label3.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.BackColor = System.Drawing.Color.Black;
+            this.label3.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
             this.label3.Location = new System.Drawing.Point(143, 118);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(70, 15);
+            this.label3.Size = new System.Drawing.Size(80, 18);
             this.label3.TabIndex = 10;
             this.label3.Text = "Miércoles";
             // 
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Silver;
-            this.label4.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(460, 58);
+            this.label4.BackColor = System.Drawing.Color.Black;
+            this.label4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.ImageAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.label4.Location = new System.Drawing.Point(452, 58);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(49, 15);
+            this.label4.Size = new System.Drawing.Size(63, 19);
             this.label4.TabIndex = 11;
             this.label4.Text = "Jueves";
             // 
             // label5
             // 
             this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Silver;
-            this.label5.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.BackColor = System.Drawing.Color.Black;
+            this.label5.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(453, 88);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(56, 15);
+            this.label5.Size = new System.Drawing.Size(64, 18);
             this.label5.TabIndex = 12;
             this.label5.Text = "Viernes";
             // 
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Silver;
-            this.label6.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.BackColor = System.Drawing.Color.Black;
+            this.label6.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.Color.White;
             this.label6.Location = new System.Drawing.Point(460, 118);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(49, 15);
+            this.label6.Size = new System.Drawing.Size(56, 18);
             this.label6.TabIndex = 13;
             this.label6.Text = "Sábado";
             // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.LightGray;
-            this.label7.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label7.Location = new System.Drawing.Point(311, 162);
+            this.label7.BackColor = System.Drawing.Color.Black;
+            this.label7.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label7.ForeColor = System.Drawing.Color.White;
+            this.label7.Location = new System.Drawing.Point(303, 159);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(56, 15);
+            this.label7.Size = new System.Drawing.Size(64, 18);
             this.label7.TabIndex = 14;
             this.label7.Text = "Domingo";
             // 
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.DarkGray;
-            this.label8.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label8.Location = new System.Drawing.Point(379, 9);
+            this.label8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))));
+            this.label8.Font = new System.Drawing.Font("MingLiU_HKSCS-ExtB", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label8.ForeColor = System.Drawing.Color.White;
+            this.label8.Image = global::Ejecicios_del_Gym.Properties.Resources.On_Air_MAISONS_ALFORT;
+            this.label8.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
+            this.label8.Location = new System.Drawing.Point(368, -1);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(179, 24);
+            this.label8.Size = new System.Drawing.Size(207, 27);
             this.label8.TabIndex = 15;
             this.label8.Text = "Tren Superior";
             // 
@@ -348,7 +378,7 @@
             "Hiperextensiones",
             "Face pulls con polea",
             "Pulldown en polea baja"});
-            this.com_jueves.Location = new System.Drawing.Point(515, 52);
+            this.com_jueves.Location = new System.Drawing.Point(537, 55);
             this.com_jueves.Name = "com_jueves";
             this.com_jueves.Size = new System.Drawing.Size(202, 21);
             this.com_jueves.TabIndex = 19;
@@ -450,7 +480,7 @@
             "Hiperextensiones",
             "Face pulls con polea",
             "Pulldown en polea baja"});
-            this.com_sabado.Location = new System.Drawing.Point(515, 112);
+            this.com_sabado.Location = new System.Drawing.Point(537, 115);
             this.com_sabado.Name = "com_sabado";
             this.com_sabado.Size = new System.Drawing.Size(202, 21);
             this.com_sabado.TabIndex = 21;
@@ -501,7 +531,7 @@
             "Hiperextensiones",
             "Face pulls con polea",
             "Pulldown en polea baja"});
-            this.com_viernes.Location = new System.Drawing.Point(515, 82);
+            this.com_viernes.Location = new System.Drawing.Point(537, 85);
             this.com_viernes.Name = "com_viernes";
             this.com_viernes.Size = new System.Drawing.Size(202, 21);
             this.com_viernes.TabIndex = 20;
@@ -519,11 +549,12 @@
             // 
             // btn_Agregar
             // 
-            this.btn_Agregar.BackColor = System.Drawing.Color.LightGray;
-            this.btn_Agregar.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Agregar.Location = new System.Drawing.Point(402, 212);
+            this.btn_Agregar.BackColor = System.Drawing.Color.Black;
+            this.btn_Agregar.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Agregar.ForeColor = System.Drawing.Color.White;
+            this.btn_Agregar.Location = new System.Drawing.Point(373, 208);
             this.btn_Agregar.Name = "btn_Agregar";
-            this.btn_Agregar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Agregar.Size = new System.Drawing.Size(75, 27);
             this.btn_Agregar.TabIndex = 23;
             this.btn_Agregar.Text = "Agregar";
             this.btn_Agregar.UseVisualStyleBackColor = false;
@@ -531,11 +562,12 @@
             // 
             // btn_Eliminar
             // 
-            this.btn_Eliminar.BackColor = System.Drawing.Color.LightGray;
-            this.btn_Eliminar.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_Eliminar.Location = new System.Drawing.Point(483, 212);
+            this.btn_Eliminar.BackColor = System.Drawing.Color.Black;
+            this.btn_Eliminar.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_Eliminar.ForeColor = System.Drawing.Color.White;
+            this.btn_Eliminar.Location = new System.Drawing.Point(483, 208);
             this.btn_Eliminar.Name = "btn_Eliminar";
-            this.btn_Eliminar.Size = new System.Drawing.Size(75, 23);
+            this.btn_Eliminar.Size = new System.Drawing.Size(92, 27);
             this.btn_Eliminar.TabIndex = 24;
             this.btn_Eliminar.Text = "Eliminar";
             this.btn_Eliminar.UseVisualStyleBackColor = false;
@@ -543,19 +575,76 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources.Fondo_de_estudio_abstracto_fondo_blanco_y_gris___Vector_Premium;
-            this.pictureBox1.Location = new System.Drawing.Point(0, -1);
+            this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources.On_Air_MAISONS_ALFORT;
+            this.pictureBox1.Location = new System.Drawing.Point(-10, -1);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(922, 496);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 25;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
+            // 
+            // collunes
+            // 
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Consolas", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.White;
+            this.collunes.DefaultCellStyle = dataGridViewCellStyle3;
+            this.collunes.HeaderText = "Lunes";
+            this.collunes.MinimumWidth = 7;
+            this.collunes.Name = "collunes";
+            this.collunes.Resizable = System.Windows.Forms.DataGridViewTriState.True;
+            this.collunes.Width = 140;
+            // 
+            // colmar
+            // 
+            this.colmar.HeaderText = "Martes";
+            this.colmar.MinimumWidth = 7;
+            this.colmar.Name = "colmar";
+            this.colmar.Width = 140;
+            // 
+            // colmier
+            // 
+            this.colmier.HeaderText = "Miércoles";
+            this.colmier.MinimumWidth = 7;
+            this.colmier.Name = "colmier";
+            this.colmier.Width = 140;
+            // 
+            // coljue
+            // 
+            this.coljue.HeaderText = "Jueves";
+            this.coljue.MinimumWidth = 7;
+            this.coljue.Name = "coljue";
+            this.coljue.Width = 140;
+            // 
+            // colvier
+            // 
+            this.colvier.HeaderText = "Viernes";
+            this.colvier.MinimumWidth = 7;
+            this.colvier.Name = "colvier";
+            this.colvier.Width = 140;
+            // 
+            // col_saba
+            // 
+            this.col_saba.HeaderText = "Sábado";
+            this.col_saba.MinimumWidth = 7;
+            this.col_saba.Name = "col_saba";
+            this.col_saba.Width = 140;
+            // 
+            // col_domi
+            // 
+            this.col_domi.HeaderText = "Domingo";
+            this.col_domi.MinimumWidth = 7;
+            this.col_domi.Name = "col_domi";
+            this.col_domi.Width = 90;
             // 
             // Data_superior
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(924, 495);
+            this.ClientSize = new System.Drawing.Size(912, 495);
             this.Controls.Add(this.btn_Eliminar);
             this.Controls.Add(this.btn_Agregar);
             this.Controls.Add(this.com_domingo);
@@ -586,8 +675,6 @@
         }
 
         #endregion
-
-        private System.Windows.Forms.DataGridView data_superior_1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
@@ -596,11 +683,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
-        private System.Windows.Forms.DataGridViewTextBoxColumn collunes;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colmar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colmier;
-        private System.Windows.Forms.DataGridViewTextBoxColumn coljue;
-        private System.Windows.Forms.DataGridViewTextBoxColumn colvier;
         private System.Windows.Forms.ComboBox com_lunes;
         private System.Windows.Forms.ComboBox com_martes;
         private System.Windows.Forms.ComboBox com_jueves;
@@ -609,9 +691,15 @@
         private System.Windows.Forms.ComboBox com_viernes;
         private System.Windows.Forms.ComboBox com_domingo;
         private System.Windows.Forms.Button btn_Agregar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col_saba;
-        private System.Windows.Forms.DataGridViewTextBoxColumn col_domi;
         private System.Windows.Forms.Button btn_Eliminar;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.DataGridView data_superior_1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn collunes;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colmar;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colmier;
+        private System.Windows.Forms.DataGridViewTextBoxColumn coljue;
+        private System.Windows.Forms.DataGridViewTextBoxColumn colvier;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_saba;
+        private System.Windows.Forms.DataGridViewTextBoxColumn col_domi;
     }
 }

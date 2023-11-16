@@ -293,6 +293,16 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga {
+            get {
+                object obj = ResourceManager.GetObject("descarga", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_de_estudio_abstracto_fondo_blanco_y_gris___Vector_Premium {
             get {
                 object obj = ResourceManager.GetObject("Fondo de estudio abstracto fondo blanco y gris _ Vector Premium", resourceCulture);
@@ -313,9 +323,30 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Gym_dumbbells_on_black_background_with_copy_sapce_Gym_dumbbells_on_black_background_with_copy_sapce_Photograph_taken_from_above_ {
+            get {
+                object obj = ResourceManager.GetObject("Gym dumbbells on black background with copy sapce Gym dumbbells on black backgrou" +
+                        "nd with copy sapce Photograph taken from above_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Maqueta_cartelera_en_blanco___Vector_Gratis {
             get {
                 object obj = ResourceManager.GetObject("Maqueta cartelera en blanco _ Vector Gratis", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap On_air_EVRY {
+            get {
+                object obj = ResourceManager.GetObject("On air EVRY", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +367,16 @@ namespace Ejecicios_del_Gym.Properties {
         internal static System.Drawing.Bitmap Pared_de_ladrillo_con_fondo_de_focos___Vector_Premium {
             get {
                 object obj = ResourceManager.GetObject("Pared de ladrillo con fondo de focos _ Vector Premium", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Premium_Photo___Dark_red_and_brown_studio_background {
+            get {
+                object obj = ResourceManager.GetObject("Premium Photo _ Dark red and brown studio background", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
