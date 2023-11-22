@@ -145,6 +145,7 @@
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources.Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
@@ -164,6 +165,7 @@
             this.btn_semanal.TabIndex = 11;
             this.btn_semanal.Text = "Rutina Semanal";
             this.btn_semanal.UseVisualStyleBackColor = true;
+            this.btn_semanal.Click += new System.EventHandler(this.btn_semanal_Click);
             // 
             // pictureBox5
             // 

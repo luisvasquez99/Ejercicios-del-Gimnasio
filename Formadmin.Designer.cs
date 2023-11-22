@@ -33,6 +33,9 @@
             this.panel_login = new System.Windows.Forms.Panel();
             this.panel_contenedor = new System.Windows.Forms.Panel();
             this.panel_inicio = new System.Windows.Forms.Panel();
+            this.label5 = new System.Windows.Forms.Label();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pb_mostrar1 = new System.Windows.Forms.PictureBox();
             this.pb_ocultar1 = new System.Windows.Forms.PictureBox();
             this.btn_acceder_formadmin = new System.Windows.Forms.Button();
@@ -45,7 +48,17 @@
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_registroo = new System.Windows.Forms.Panel();
+            this.pb_mostrarcon = new System.Windows.Forms.PictureBox();
+            this.pb_ocultarcon = new System.Windows.Forms.PictureBox();
             this.pb_mostrar = new System.Windows.Forms.PictureBox();
+            this.pictureBox9 = new System.Windows.Forms.PictureBox();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.label4 = new System.Windows.Forms.Label();
+            this.tbx_confirmarcon = new System.Windows.Forms.TextBox();
+            this.pictureBox8 = new System.Windows.Forms.PictureBox();
+            this.pictureBox7 = new System.Windows.Forms.PictureBox();
+            this.pictureBox6 = new System.Windows.Forms.PictureBox();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.btn_registrar_Formadmin = new System.Windows.Forms.Button();
             this.panel_contra = new System.Windows.Forms.Panel();
             this.tbx_contraseña = new System.Windows.Forms.TextBox();
@@ -71,11 +84,20 @@
             this.panel_login.SuspendLayout();
             this.panel_contenedor.SuspendLayout();
             this.panel_inicio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel_registroo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mostrarcon)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ocultarcon)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar)).BeginInit();
             this.SuspendLayout();
@@ -97,6 +119,7 @@
             this.panel_login.Controls.Add(this.btnregistro);
             this.panel_login.Controls.Add(this.label3);
             this.panel_login.Controls.Add(this.label8);
+            this.panel_login.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel_login.Location = new System.Drawing.Point(0, 0);
             this.panel_login.Name = "panel_login";
             this.panel_login.Size = new System.Drawing.Size(800, 435);
@@ -107,6 +130,7 @@
             this.panel_contenedor.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.panel_contenedor.Controls.Add(this.panel_inicio);
             this.panel_contenedor.Controls.Add(this.panel_registroo);
+            this.panel_contenedor.Cursor = System.Windows.Forms.Cursors.Hand;
             this.panel_contenedor.Location = new System.Drawing.Point(0, 0);
             this.panel_contenedor.Name = "panel_contenedor";
             this.panel_contenedor.Size = new System.Drawing.Size(400, 435);
@@ -118,6 +142,9 @@
             this.panel_inicio.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
             this.panel_inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel_inicio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_inicio.Controls.Add(this.label5);
+            this.panel_inicio.Controls.Add(this.pictureBox4);
+            this.panel_inicio.Controls.Add(this.pictureBox3);
             this.panel_inicio.Controls.Add(this.pb_mostrar1);
             this.panel_inicio.Controls.Add(this.pb_ocultar1);
             this.panel_inicio.Controls.Add(this.btn_acceder_formadmin);
@@ -135,10 +162,42 @@
             this.panel_inicio.TabIndex = 32;
             this.panel_inicio.Tag = "panel_ini";
             // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.BackColor = System.Drawing.Color.Transparent;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Underline, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(129, 234);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(131, 13);
+            this.label5.TabIndex = 22;
+            this.label5.Text = "¿Olvidaste tu contraseña?";
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_09_115841;
+            this.pictureBox4.Location = new System.Drawing.Point(62, 149);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(26, 26);
+            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox4.TabIndex = 21;
+            this.pictureBox4.TabStop = false;
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_09_120137;
+            this.pictureBox3.Location = new System.Drawing.Point(62, 199);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(26, 26);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox3.TabIndex = 20;
+            this.pictureBox3.TabStop = false;
+            // 
             // pb_mostrar1
             // 
             this.pb_mostrar1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211706;
-            this.pb_mostrar1.Location = new System.Drawing.Point(295, 197);
+            this.pb_mostrar1.Location = new System.Drawing.Point(299, 197);
             this.pb_mostrar1.Name = "pb_mostrar1";
             this.pb_mostrar1.Size = new System.Drawing.Size(28, 20);
             this.pb_mostrar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -149,7 +208,7 @@
             // pb_ocultar1
             // 
             this.pb_ocultar1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211422;
-            this.pb_ocultar1.Location = new System.Drawing.Point(295, 197);
+            this.pb_ocultar1.Location = new System.Drawing.Point(299, 197);
             this.pb_ocultar1.Name = "pb_ocultar1";
             this.pb_ocultar1.Size = new System.Drawing.Size(28, 20);
             this.pb_ocultar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -166,7 +225,7 @@
             this.btn_acceder_formadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_acceder_formadmin.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_acceder_formadmin.ForeColor = System.Drawing.Color.Black;
-            this.btn_acceder_formadmin.Location = new System.Drawing.Point(97, 231);
+            this.btn_acceder_formadmin.Location = new System.Drawing.Point(97, 254);
             this.btn_acceder_formadmin.Name = "btn_acceder_formadmin";
             this.btn_acceder_formadmin.Size = new System.Drawing.Size(196, 32);
             this.btn_acceder_formadmin.TabIndex = 16;
@@ -268,7 +327,17 @@
             this.panel_registroo.BackColor = System.Drawing.Color.Black;
             this.panel_registroo.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
             this.panel_registroo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel_registroo.Controls.Add(this.pb_mostrarcon);
+            this.panel_registroo.Controls.Add(this.pb_ocultarcon);
             this.panel_registroo.Controls.Add(this.pb_mostrar);
+            this.panel_registroo.Controls.Add(this.pictureBox9);
+            this.panel_registroo.Controls.Add(this.panel1);
+            this.panel_registroo.Controls.Add(this.label4);
+            this.panel_registroo.Controls.Add(this.tbx_confirmarcon);
+            this.panel_registroo.Controls.Add(this.pictureBox8);
+            this.panel_registroo.Controls.Add(this.pictureBox7);
+            this.panel_registroo.Controls.Add(this.pictureBox6);
+            this.panel_registroo.Controls.Add(this.pictureBox5);
             this.panel_registroo.Controls.Add(this.btn_registrar_Formadmin);
             this.panel_registroo.Controls.Add(this.panel_contra);
             this.panel_registroo.Controls.Add(this.tbx_contraseña);
@@ -291,16 +360,121 @@
             this.panel_registroo.TabIndex = 31;
             this.panel_registroo.Tag = "registro";
             // 
+            // pb_mostrarcon
+            // 
+            this.pb_mostrarcon.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211706;
+            this.pb_mostrarcon.Location = new System.Drawing.Point(292, 328);
+            this.pb_mostrarcon.Name = "pb_mostrarcon";
+            this.pb_mostrarcon.Size = new System.Drawing.Size(28, 20);
+            this.pb_mostrarcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_mostrarcon.TabIndex = 27;
+            this.pb_mostrarcon.TabStop = false;
+            this.pb_mostrarcon.Click += new System.EventHandler(this.pb_mostrarcon_Click);
+            // 
+            // pb_ocultarcon
+            // 
+            this.pb_ocultarcon.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211422;
+            this.pb_ocultarcon.Location = new System.Drawing.Point(292, 328);
+            this.pb_ocultarcon.Name = "pb_ocultarcon";
+            this.pb_ocultarcon.Size = new System.Drawing.Size(28, 20);
+            this.pb_ocultarcon.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_ocultarcon.TabIndex = 26;
+            this.pb_ocultarcon.TabStop = false;
+            this.pb_ocultarcon.Click += new System.EventHandler(this.pb_ocultarcon_Click_1);
+            // 
             // pb_mostrar
             // 
             this.pb_mostrar.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211706;
-            this.pb_mostrar.Location = new System.Drawing.Point(289, 287);
+            this.pb_mostrar.Location = new System.Drawing.Point(292, 276);
             this.pb_mostrar.Name = "pb_mostrar";
             this.pb_mostrar.Size = new System.Drawing.Size(28, 20);
             this.pb_mostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pb_mostrar.TabIndex = 17;
             this.pb_mostrar.TabStop = false;
             this.pb_mostrar.Click += new System.EventHandler(this.pb_mostrar_Click);
+            // 
+            // pictureBox9
+            // 
+            this.pictureBox9.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_09_120137;
+            this.pictureBox9.Location = new System.Drawing.Point(59, 322);
+            this.pictureBox9.Name = "pictureBox9";
+            this.pictureBox9.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox9.TabIndex = 25;
+            this.pictureBox9.TabStop = false;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Black;
+            this.panel1.Location = new System.Drawing.Point(92, 354);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(196, 3);
+            this.panel1.TabIndex = 16;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.BackColor = System.Drawing.Color.Transparent;
+            this.label4.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(89, 314);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(165, 15);
+            this.label4.TabIndex = 24;
+            this.label4.Text = "Confirmar Contraseña:";
+            // 
+            // tbx_confirmarcon
+            // 
+            this.tbx_confirmarcon.BackColor = System.Drawing.Color.Black;
+            this.tbx_confirmarcon.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.tbx_confirmarcon.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.tbx_confirmarcon.ForeColor = System.Drawing.Color.White;
+            this.tbx_confirmarcon.Location = new System.Drawing.Point(92, 332);
+            this.tbx_confirmarcon.Name = "tbx_confirmarcon";
+            this.tbx_confirmarcon.PasswordChar = '*';
+            this.tbx_confirmarcon.Size = new System.Drawing.Size(196, 16);
+            this.tbx_confirmarcon.TabIndex = 23;
+            this.tbx_confirmarcon.Tag = "usuario";
+            // 
+            // pictureBox8
+            // 
+            this.pictureBox8.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_09_120137;
+            this.pictureBox8.Location = new System.Drawing.Point(59, 276);
+            this.pictureBox8.Name = "pictureBox8";
+            this.pictureBox8.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox8.TabIndex = 22;
+            this.pictureBox8.TabStop = false;
+            // 
+            // pictureBox7
+            // 
+            this.pictureBox7.Image = global::Ejecicios_del_Gym.Properties.Resources.@__at_MoMA___Magazine___MoMA;
+            this.pictureBox7.Location = new System.Drawing.Point(59, 173);
+            this.pictureBox7.Name = "pictureBox7";
+            this.pictureBox7.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox7.TabIndex = 21;
+            this.pictureBox7.TabStop = false;
+            // 
+            // pictureBox6
+            // 
+            this.pictureBox6.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_09_115841;
+            this.pictureBox6.Location = new System.Drawing.Point(59, 226);
+            this.pictureBox6.Name = "pictureBox6";
+            this.pictureBox6.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox6.TabIndex = 20;
+            this.pictureBox6.TabStop = false;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_09_115841;
+            this.pictureBox5.Location = new System.Drawing.Point(59, 118);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(24, 26);
+            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox5.TabIndex = 19;
+            this.pictureBox5.TabStop = false;
             // 
             // btn_registrar_Formadmin
             // 
@@ -311,7 +485,7 @@
             this.btn_registrar_Formadmin.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btn_registrar_Formadmin.Font = new System.Drawing.Font("Lucida Fax", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_registrar_Formadmin.ForeColor = System.Drawing.Color.Black;
-            this.btn_registrar_Formadmin.Location = new System.Drawing.Point(92, 320);
+            this.btn_registrar_Formadmin.Location = new System.Drawing.Point(92, 363);
             this.btn_registrar_Formadmin.Name = "btn_registrar_Formadmin";
             this.btn_registrar_Formadmin.Size = new System.Drawing.Size(196, 32);
             this.btn_registrar_Formadmin.TabIndex = 16;
@@ -322,7 +496,7 @@
             // panel_contra
             // 
             this.panel_contra.BackColor = System.Drawing.Color.Black;
-            this.panel_contra.Location = new System.Drawing.Point(92, 311);
+            this.panel_contra.Location = new System.Drawing.Point(92, 299);
             this.panel_contra.Name = "panel_contra";
             this.panel_contra.Size = new System.Drawing.Size(196, 3);
             this.panel_contra.TabIndex = 15;
@@ -333,7 +507,7 @@
             this.tbx_contraseña.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_contraseña.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_contraseña.ForeColor = System.Drawing.Color.White;
-            this.tbx_contraseña.Location = new System.Drawing.Point(92, 291);
+            this.tbx_contraseña.Location = new System.Drawing.Point(92, 279);
             this.tbx_contraseña.Name = "tbx_contraseña";
             this.tbx_contraseña.PasswordChar = '*';
             this.tbx_contraseña.Size = new System.Drawing.Size(196, 16);
@@ -349,7 +523,7 @@
             this.label13.BackColor = System.Drawing.Color.Transparent;
             this.label13.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label13.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label13.Location = new System.Drawing.Point(89, 273);
+            this.label13.Location = new System.Drawing.Point(89, 261);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(90, 15);
             this.label13.TabIndex = 13;
@@ -358,7 +532,7 @@
             // panel_usuario
             // 
             this.panel_usuario.BackColor = System.Drawing.Color.Black;
-            this.panel_usuario.Location = new System.Drawing.Point(92, 264);
+            this.panel_usuario.Location = new System.Drawing.Point(92, 252);
             this.panel_usuario.Name = "panel_usuario";
             this.panel_usuario.Size = new System.Drawing.Size(196, 3);
             this.panel_usuario.TabIndex = 12;
@@ -369,7 +543,7 @@
             this.tbx_usuario.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_usuario.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_usuario.ForeColor = System.Drawing.Color.White;
-            this.tbx_usuario.Location = new System.Drawing.Point(92, 244);
+            this.tbx_usuario.Location = new System.Drawing.Point(92, 232);
             this.tbx_usuario.Name = "tbx_usuario";
             this.tbx_usuario.Size = new System.Drawing.Size(196, 16);
             this.tbx_usuario.TabIndex = 11;
@@ -381,7 +555,7 @@
             this.label12.BackColor = System.Drawing.Color.Transparent;
             this.label12.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label12.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label12.Location = new System.Drawing.Point(89, 226);
+            this.label12.Location = new System.Drawing.Point(89, 214);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(65, 15);
             this.label12.TabIndex = 10;
@@ -390,7 +564,7 @@
             // panel_correo
             // 
             this.panel_correo.BackColor = System.Drawing.Color.Black;
-            this.panel_correo.Location = new System.Drawing.Point(92, 214);
+            this.panel_correo.Location = new System.Drawing.Point(92, 202);
             this.panel_correo.Name = "panel_correo";
             this.panel_correo.Size = new System.Drawing.Size(196, 3);
             this.panel_correo.TabIndex = 9;
@@ -401,7 +575,7 @@
             this.tbx_correo.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_correo.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_correo.ForeColor = System.Drawing.Color.White;
-            this.tbx_correo.Location = new System.Drawing.Point(92, 194);
+            this.tbx_correo.Location = new System.Drawing.Point(92, 182);
             this.tbx_correo.Name = "tbx_correo";
             this.tbx_correo.Size = new System.Drawing.Size(196, 16);
             this.tbx_correo.TabIndex = 8;
@@ -413,7 +587,7 @@
             this.label11.BackColor = System.Drawing.Color.Transparent;
             this.label11.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label11.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label11.Location = new System.Drawing.Point(89, 176);
+            this.label11.Location = new System.Drawing.Point(89, 164);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(141, 15);
             this.label11.TabIndex = 7;
@@ -422,7 +596,7 @@
             // panel_nombre
             // 
             this.panel_nombre.BackColor = System.Drawing.Color.Black;
-            this.panel_nombre.Location = new System.Drawing.Point(92, 160);
+            this.panel_nombre.Location = new System.Drawing.Point(92, 148);
             this.panel_nombre.Name = "panel_nombre";
             this.panel_nombre.Size = new System.Drawing.Size(196, 3);
             this.panel_nombre.TabIndex = 6;
@@ -434,7 +608,7 @@
             this.tbx_nom.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.tbx_nom.Font = new System.Drawing.Font("Consolas", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbx_nom.ForeColor = System.Drawing.Color.White;
-            this.tbx_nom.Location = new System.Drawing.Point(92, 140);
+            this.tbx_nom.Location = new System.Drawing.Point(92, 128);
             this.tbx_nom.Name = "tbx_nom";
             this.tbx_nom.Size = new System.Drawing.Size(196, 16);
             this.tbx_nom.TabIndex = 4;
@@ -448,7 +622,7 @@
             this.label10.BackColor = System.Drawing.Color.Transparent;
             this.label10.Font = new System.Drawing.Font("Lucida Fax", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label10.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label10.Location = new System.Drawing.Point(89, 122);
+            this.label10.Location = new System.Drawing.Point(89, 110);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(66, 15);
             this.label10.TabIndex = 2;
@@ -480,7 +654,7 @@
             // pb_ocultar
             // 
             this.pb_ocultar.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211422;
-            this.pb_ocultar.Location = new System.Drawing.Point(289, 287);
+            this.pb_ocultar.Location = new System.Drawing.Point(292, 276);
             this.pb_ocultar.Name = "pb_ocultar";
             this.pb_ocultar.Size = new System.Drawing.Size(28, 20);
             this.pb_ocultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -585,12 +759,21 @@
             this.panel_contenedor.ResumeLayout(false);
             this.panel_inicio.ResumeLayout(false);
             this.panel_inicio.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel_registroo.ResumeLayout(false);
             this.panel_registroo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mostrarcon)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ocultarcon)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar)).EndInit();
             this.ResumeLayout(false);
@@ -637,5 +820,18 @@
         private System.Windows.Forms.PictureBox pb_mostrar;
         private System.Windows.Forms.PictureBox pb_mostrar1;
         private System.Windows.Forms.PictureBox pb_ocultar1;
+        private System.Windows.Forms.PictureBox pictureBox4;
+        private System.Windows.Forms.PictureBox pictureBox3;
+        private System.Windows.Forms.PictureBox pictureBox8;
+        private System.Windows.Forms.PictureBox pictureBox7;
+        private System.Windows.Forms.PictureBox pictureBox6;
+        private System.Windows.Forms.PictureBox pictureBox5;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.PictureBox pictureBox9;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.TextBox tbx_confirmarcon;
+        private System.Windows.Forms.PictureBox pb_mostrarcon;
+        private System.Windows.Forms.PictureBox pb_ocultarcon;
     }
 }

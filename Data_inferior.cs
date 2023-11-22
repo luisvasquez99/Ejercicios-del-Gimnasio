@@ -16,6 +16,7 @@ namespace Ejecicios_del_Gym
         public Data_inferior()
         {
             InitializeComponent();
+            RellenarGrid();
         }
         private void Dataa_Load(object sender, EventArgs e)
         {
@@ -65,6 +66,32 @@ namespace Ejecicios_del_Gym
             com_viernes_2.Text = data_inferior_2[4, poc].Value.ToString();
             com_sabado_2.Text = data_inferior_2[5, poc].Value.ToString();
             com_domingo_2.Text = data_inferior_2[6, poc].Value.ToString();
+        }
+        private void RellenarGrid()
+        {
+
+            List<Ejercicios> ejercicios = new List<Ejercicios>();
+            ejercicios.Add(new Ejercicios("Sentadilla", "Descanso", "Sentadilla", "Descanso", "Hip thrust", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Extención en máquina", "Descanso", "Extención en máquina", "Descanso", "Sentadilla Búlgara", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Prensa", "Descanso", "Peso muerto", "Descanso", "Peso muerto", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Aductores en máquina", "Descanso", "Femoral en máquina", "Descanso", "Femoral en máquina", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Zancadas", "Descanso", "Pantorillas", "Descanso", "Patada de glúteo", "Descanso", "Descanso"));
+
+
+
+            foreach (Ejercicios e in ejercicios)
+            {
+                int rowIndex = data_inferior_2.Rows.Add();
+                DataGridViewRow row = data_inferior_2.Rows[rowIndex];
+                row.Cells[0].Value = e.Lunes;
+                row.Cells[1].Value = e.Martes;
+                row.Cells[2].Value = e.Miércoles;
+                row.Cells[3].Value = e.Jueves;
+                row.Cells[4].Value = e.Viernes;
+                row.Cells[5].Value = e.Sábado;
+                row.Cells[6].Value = e.Domingo;
+
+            }
         }
 
         private void btn_eliminar_2_Click(object sender, EventArgs e)

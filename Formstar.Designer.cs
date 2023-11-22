@@ -135,7 +135,7 @@
             // pictureBox1
             // 
             this.pictureBox1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.pictureBox1.Cursor = System.Windows.Forms.Cursors.WaitCursor;
             this.pictureBox1.Image = global::Ejecicios_del_Gym.Properties.Resources._9d95a5d0_abca_4e3d_b457_70bdde285c33;
             this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";

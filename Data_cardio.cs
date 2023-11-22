@@ -16,6 +16,7 @@ namespace Ejecicios_del_Gym
         public Data_cardio()
         {
             InitializeComponent();
+            RellenarGrid();
         }
         private void Data_Load(object sender, EventArgs e)
         {
@@ -51,8 +52,34 @@ namespace Ejecicios_del_Gym
             com_domingo_1.Items.Add("domingo");
 
         }
+        private void RellenarGrid()
+        {
 
-        private void btn_eliminar_1_Click_1(object sender, EventArgs e)
+            List<Ejercicios> ejercicios = new List<Ejercicios>();
+            ejercicios.Add(new Ejercicios("Elíptica", "Descanso", "Cardio hit", "Descanso", "Elíptica", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Máquina de remom", "Descanso", "Clase de baile", "Descanso", "Máquina de remo", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Máquina de escalera vertical", "Descanso", "Elíptica", "Descanso", "Escalera vertical", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Saltos en caja", "Descanso", "", "Descanso", "Caminadora", "Descanso", "Descanso"));
+            ejercicios.Add(new Ejercicios("Caminadora", "Descanso", "", "Descanso", "saltos en caja", "Descanso", "Descanso"));
+
+
+
+            foreach (Ejercicios e in ejercicios)
+            {
+                int rowIndex = data_cardio_1.Rows.Add();
+                DataGridViewRow row = data_cardio_1.Rows[rowIndex];
+                row.Cells[0].Value = e.Lunes;
+                row.Cells[1].Value = e.Martes;
+                row.Cells[2].Value = e.Miércoles;
+                row.Cells[3].Value = e.Jueves;
+                row.Cells[4].Value = e.Viernes;
+                row.Cells[5].Value = e.Sábado;
+                row.Cells[6].Value = e.Domingo;
+
+            }
+        }
+
+            private void btn_eliminar_1_Click_1(object sender, EventArgs e)
         {
             data_cardio_1.Rows.RemoveAt(poc);
         }
@@ -78,6 +105,16 @@ namespace Ejecicios_del_Gym
             Form_grupos_musculares fmrprincipal = new Form_grupos_musculares();
             this.Hide();
             fmrprincipal.Show();
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

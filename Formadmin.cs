@@ -113,7 +113,7 @@ namespace Ejecicios_del_Gym
 
         private void btn_acceder_formadmin_Click(object sender, EventArgs e)
         {
-            if(tbx_usuario_ini.Text == "luis11" && tbx_contra_ini.Text == "11")
+            if(tbx_usuario_ini.Text == "Ronnie Coleman" && tbx_contra_ini.Text == "Ronnie11")
             {
                 Form_grupos_musculares form1 = new Form_grupos_musculares();
                 this.Hide();
@@ -200,6 +200,20 @@ namespace Ejecicios_del_Gym
                 MessageBox.Show("Máximo 8 caracteres verifique su contraseña");
             }
         
+        }
+
+       
+
+        private void pb_ocultarcon_Click_1(object sender, EventArgs e)
+        {
+            pb_mostrarcon.BringToFront();
+            tbx_confirmarcon.PasswordChar = '*';
+        }
+
+        private void pb_mostrarcon_Click(object sender, EventArgs e)
+        {
+            pb_ocultarcon.BringToFront();
+            tbx_confirmarcon.PasswordChar = '\0';
         }
     }
 }

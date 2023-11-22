@@ -54,6 +54,11 @@ namespace Ejecicios_del_Gym
                 fmrprincipal.Show();
 
             }
+
+        private void btn_semanal_Click(object sender, EventArgs e)
+        {
+
         }
+    }
     }
 

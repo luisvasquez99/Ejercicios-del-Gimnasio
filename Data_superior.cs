@@ -81,11 +81,11 @@ namespace Ejecicios_del_Gym
         private void RellenarGrid()
         {
            List<Ejercicios> ejercicios = new List<Ejercicios>();
-           ejercicios.Add(new Ejercicios("press plano", "Descanso" , "press plano", "Descanso","press plano", "Descanso", "Descanso"));
-           ejercicios.Add(new Ejercicios("press plano", "Descanso", "press plano", "Descanso", "press plano", "Descanso", "Descanso"));
-           ejercicios.Add(new Ejercicios("press plano", "Descanso", "press plano", "Descanso", "press plano", "Descanso", "Descanso"));
-           ejercicios.Add(new Ejercicios("press plano", "Descanso", "press plano", "Descanso", "press plano", "Descanso", "Descanso"));
-           ejercicios.Add(new Ejercicios("press plano", "Descanso", "press plano", "Descanso", "press plano", "Descanso", "Descanso"));
+           ejercicios.Add(new Ejercicios("press plano", "Descanso" , "Jalón vertical", "Descanso","press plano", "Descanso", "Descanso"));
+           ejercicios.Add(new Ejercicios("press inclinado", "Descanso", "Remo con agarre amplio", "Descanso", "Cruces en polea", "Descanso", "Descanso"));
+           ejercicios.Add(new Ejercicios("Cruces en polea", "Descanso", "Pull over en polea alta", "Descanso", "Extención de triceps", "Descanso", "Descanso"));
+           ejercicios.Add(new Ejercicios("press de hombros", "Descanso", "Curl de biceps", "Descanso", "Copa para triceps", "Descanso", "Descanso"));
+           ejercicios.Add(new Ejercicios("Elevaciones laterales", "Descanso", "Curl con barra Z", "Descanso", "Press frances", "Descanso", "Descanso"));
 
 
 

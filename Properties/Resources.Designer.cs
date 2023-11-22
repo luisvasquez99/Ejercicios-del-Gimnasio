@@ -63,6 +63,16 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap @__at_MoMA___Magazine___MoMA {
+            get {
+                object obj = ResourceManager.GetObject("@ at MoMA _ Magazine _ MoMA", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _43530069_344d_4818_b45b_1990707a55c4 {
             get {
                 object obj = ResourceManager.GetObject("43530069-344d-4818-b45b-1990707a55c4", resourceCulture);
@@ -96,6 +106,26 @@ namespace Ejecicios_del_Gym.Properties {
         internal static System.Drawing.Bitmap Arnold_Schwarzenegger_Poster_Double_Biceps_Famous_Pose___Etsy {
             get {
                 object obj = ResourceManager.GetObject("Arnold Schwarzenegger Poster Double Biceps Famous Pose _ Etsy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Arroba_free_vector_icons_designed_by_Freepik {
+            get {
+                object obj = ResourceManager.GetObject("Arroba free vector icons designed by Freepik", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Berger___Föhr {
+            get {
+                object obj = ResourceManager.GetObject("Berger & Föhr", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -336,6 +366,26 @@ namespace Ejecicios_del_Gym.Properties {
         internal static System.Drawing.Bitmap descarga__2_ {
             get {
                 object obj = ResourceManager.GetObject("descarga (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga__3_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (3)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga__4_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (4)", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -259,5 +259,20 @@
   <ItemGroup>
     <None Include="Resources\Arnold Schwarzenegger Poster Double Biceps Famous Pose _ Etsy.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %283%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %284%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%40 at MoMA _ Magazine _ MoMA.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arroba free vector icons designed by Freepik.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Berger &amp; Föhr.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
