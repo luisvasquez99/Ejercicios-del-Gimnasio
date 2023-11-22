@@ -33,6 +33,8 @@
             this.panel_login = new System.Windows.Forms.Panel();
             this.panel_contenedor = new System.Windows.Forms.Panel();
             this.panel_inicio = new System.Windows.Forms.Panel();
+            this.pb_mostrar1 = new System.Windows.Forms.PictureBox();
+            this.pb_ocultar1 = new System.Windows.Forms.PictureBox();
             this.btn_acceder_formadmin = new System.Windows.Forms.Button();
             this.panel_contra_iniciio = new System.Windows.Forms.Panel();
             this.tbx_contra_ini = new System.Windows.Forms.TextBox();
@@ -43,6 +45,7 @@
             this.label18 = new System.Windows.Forms.Label();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel_registroo = new System.Windows.Forms.Panel();
+            this.pb_mostrar = new System.Windows.Forms.PictureBox();
             this.btn_registrar_Formadmin = new System.Windows.Forms.Button();
             this.panel_contra = new System.Windows.Forms.Panel();
             this.tbx_contraseña = new System.Windows.Forms.TextBox();
@@ -58,6 +61,7 @@
             this.label10 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.pb_ocultar = new System.Windows.Forms.PictureBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
             this.btnacceder = new System.Windows.Forms.Button();
@@ -67,9 +71,13 @@
             this.panel_login.SuspendLayout();
             this.panel_contenedor.SuspendLayout();
             this.panel_inicio.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel_registroo.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -101,7 +109,7 @@
             this.panel_contenedor.Controls.Add(this.panel_registroo);
             this.panel_contenedor.Location = new System.Drawing.Point(0, 0);
             this.panel_contenedor.Name = "panel_contenedor";
-            this.panel_contenedor.Size = new System.Drawing.Size(400, 433);
+            this.panel_contenedor.Size = new System.Drawing.Size(400, 435);
             this.panel_contenedor.TabIndex = 30;
             // 
             // panel_inicio
@@ -110,6 +118,8 @@
             this.panel_inicio.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
             this.panel_inicio.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
             this.panel_inicio.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.panel_inicio.Controls.Add(this.pb_mostrar1);
+            this.panel_inicio.Controls.Add(this.pb_ocultar1);
             this.panel_inicio.Controls.Add(this.btn_acceder_formadmin);
             this.panel_inicio.Controls.Add(this.panel_contra_iniciio);
             this.panel_inicio.Controls.Add(this.tbx_contra_ini);
@@ -124,6 +134,28 @@
             this.panel_inicio.Size = new System.Drawing.Size(400, 433);
             this.panel_inicio.TabIndex = 32;
             this.panel_inicio.Tag = "panel_ini";
+            // 
+            // pb_mostrar1
+            // 
+            this.pb_mostrar1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211706;
+            this.pb_mostrar1.Location = new System.Drawing.Point(295, 197);
+            this.pb_mostrar1.Name = "pb_mostrar1";
+            this.pb_mostrar1.Size = new System.Drawing.Size(28, 20);
+            this.pb_mostrar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_mostrar1.TabIndex = 19;
+            this.pb_mostrar1.TabStop = false;
+            this.pb_mostrar1.Click += new System.EventHandler(this.pb_mostrar1_Click);
+            // 
+            // pb_ocultar1
+            // 
+            this.pb_ocultar1.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211422;
+            this.pb_ocultar1.Location = new System.Drawing.Point(295, 197);
+            this.pb_ocultar1.Name = "pb_ocultar1";
+            this.pb_ocultar1.Size = new System.Drawing.Size(28, 20);
+            this.pb_ocultar1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_ocultar1.TabIndex = 19;
+            this.pb_ocultar1.TabStop = false;
+            this.pb_ocultar1.Click += new System.EventHandler(this.pb_ocultar1_Click);
             // 
             // btn_acceder_formadmin
             // 
@@ -158,9 +190,11 @@
             this.tbx_contra_ini.ForeColor = System.Drawing.Color.White;
             this.tbx_contra_ini.Location = new System.Drawing.Point(97, 201);
             this.tbx_contra_ini.Name = "tbx_contra_ini";
+            this.tbx_contra_ini.PasswordChar = '*';
             this.tbx_contra_ini.Size = new System.Drawing.Size(196, 16);
             this.tbx_contra_ini.TabIndex = 14;
             this.tbx_contra_ini.Tag = "contraseña_inicio";
+            this.tbx_contra_ini.TextChanged += new System.EventHandler(this.tbx_contra_ini_TextChanged);
             // 
             // label14
             // 
@@ -202,9 +236,9 @@
             this.label15.ForeColor = System.Drawing.Color.Transparent;
             this.label15.Location = new System.Drawing.Point(94, 137);
             this.label15.Name = "label15";
-            this.label15.Size = new System.Drawing.Size(65, 15);
+            this.label15.Size = new System.Drawing.Size(129, 15);
             this.label15.TabIndex = 10;
-            this.label15.Text = "Usuario:";
+            this.label15.Text = "Usuario o Correo:";
             // 
             // label18
             // 
@@ -234,6 +268,7 @@
             this.panel_registroo.BackColor = System.Drawing.Color.Black;
             this.panel_registroo.BackgroundImage = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_11_10_112051;
             this.panel_registroo.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.panel_registroo.Controls.Add(this.pb_mostrar);
             this.panel_registroo.Controls.Add(this.btn_registrar_Formadmin);
             this.panel_registroo.Controls.Add(this.panel_contra);
             this.panel_registroo.Controls.Add(this.tbx_contraseña);
@@ -249,11 +284,23 @@
             this.panel_registroo.Controls.Add(this.label10);
             this.panel_registroo.Controls.Add(this.label9);
             this.panel_registroo.Controls.Add(this.pictureBox1);
+            this.panel_registroo.Controls.Add(this.pb_ocultar);
             this.panel_registroo.Location = new System.Drawing.Point(0, 0);
             this.panel_registroo.Name = "panel_registroo";
             this.panel_registroo.Size = new System.Drawing.Size(400, 433);
             this.panel_registroo.TabIndex = 31;
             this.panel_registroo.Tag = "registro";
+            // 
+            // pb_mostrar
+            // 
+            this.pb_mostrar.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211706;
+            this.pb_mostrar.Location = new System.Drawing.Point(289, 287);
+            this.pb_mostrar.Name = "pb_mostrar";
+            this.pb_mostrar.Size = new System.Drawing.Size(28, 20);
+            this.pb_mostrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_mostrar.TabIndex = 17;
+            this.pb_mostrar.TabStop = false;
+            this.pb_mostrar.Click += new System.EventHandler(this.pb_mostrar_Click);
             // 
             // btn_registrar_Formadmin
             // 
@@ -288,9 +335,11 @@
             this.tbx_contraseña.ForeColor = System.Drawing.Color.White;
             this.tbx_contraseña.Location = new System.Drawing.Point(92, 291);
             this.tbx_contraseña.Name = "tbx_contraseña";
+            this.tbx_contraseña.PasswordChar = '*';
             this.tbx_contraseña.Size = new System.Drawing.Size(196, 16);
             this.tbx_contraseña.TabIndex = 14;
             this.tbx_contraseña.Tag = "contraseña";
+            this.tbx_contraseña.TextChanged += new System.EventHandler(this.tbx_contraseña_TextChanged);
             this.tbx_contraseña.Enter += new System.EventHandler(this.txtEnter);
             this.tbx_contraseña.Leave += new System.EventHandler(this.txtLeave);
             // 
@@ -390,6 +439,7 @@
             this.tbx_nom.Size = new System.Drawing.Size(196, 16);
             this.tbx_nom.TabIndex = 4;
             this.tbx_nom.Tag = "_nombre";
+            this.tbx_nom.TextChanged += new System.EventHandler(this.tbx_nom_TextChanged);
             this.tbx_nom.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbx_nom_KeyPress);
             // 
             // label10
@@ -426,6 +476,17 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
+            // 
+            // pb_ocultar
+            // 
+            this.pb_ocultar.Image = global::Ejecicios_del_Gym.Properties.Resources.Captura_de_pantalla_2023_09_08_211422;
+            this.pb_ocultar.Location = new System.Drawing.Point(289, 287);
+            this.pb_ocultar.Name = "pb_ocultar";
+            this.pb_ocultar.Size = new System.Drawing.Size(28, 20);
+            this.pb_ocultar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.pb_ocultar.TabIndex = 18;
+            this.pb_ocultar.TabStop = false;
+            this.pb_ocultar.Click += new System.EventHandler(this.pb_ocultar_Click);
             // 
             // label2
             // 
@@ -494,9 +555,9 @@
             this.label3.Font = new System.Drawing.Font("Lucida Fax", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.Location = new System.Drawing.Point(433, 189);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(358, 18);
+            this.label3.Size = new System.Drawing.Size(350, 18);
             this.label3.TabIndex = 25;
-            this.label3.Text = "Registrate dando click en el botón de abajo";
+            this.label3.Text = "Crea una dando click en el botón de abajo";
             // 
             // label8
             // 
@@ -514,7 +575,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Lime;
-            this.ClientSize = new System.Drawing.Size(799, 432);
+            this.ClientSize = new System.Drawing.Size(799, 454);
             this.Controls.Add(this.panel_login);
             this.Name = "Formadmin";
             this.Text = "Formadmin";
@@ -524,10 +585,14 @@
             this.panel_contenedor.ResumeLayout(false);
             this.panel_inicio.ResumeLayout(false);
             this.panel_inicio.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel_registroo.ResumeLayout(false);
             this.panel_registroo.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_mostrar)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pb_ocultar)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -568,5 +633,9 @@
         private System.Windows.Forms.Label label18;
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.PictureBox pb_ocultar;
+        private System.Windows.Forms.PictureBox pb_mostrar;
+        private System.Windows.Forms.PictureBox pb_mostrar1;
+        private System.Windows.Forms.PictureBox pb_ocultar1;
     }
 }

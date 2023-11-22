@@ -93,6 +93,26 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Arnold_Schwarzenegger_Poster_Double_Biceps_Famous_Pose___Etsy {
+            get {
+                object obj = ResourceManager.GetObject("Arnold Schwarzenegger Poster Double Biceps Famous Pose _ Etsy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bodybuilder__double_biceps {
+            get {
+                object obj = ResourceManager.GetObject("bodybuilder, double biceps", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Captura_de_pantalla_2023_09_08_211422 {
             get {
                 object obj = ResourceManager.GetObject("Captura de pantalla 2023-09-08 211422", resourceCulture);
@@ -303,6 +323,46 @@ namespace Ejecicios_del_Gym.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap descarga__1_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (1)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga__2_ {
+            get {
+                object obj = ResourceManager.GetObject("descarga (2)", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap descarga1 {
+            get {
+                object obj = ResourceManager.GetObject("descarga1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap El_Rinconcito_de_Nacho___Patreon {
+            get {
+                object obj = ResourceManager.GetObject("El Rinconcito de Nacho _ Patreon", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Fondo_de_estudio_abstracto_fondo_blanco_y_gris___Vector_Premium {
             get {
                 object obj = ResourceManager.GetObject("Fondo de estudio abstracto fondo blanco y gris _ Vector Premium", resourceCulture);
@@ -327,6 +387,26 @@ namespace Ejecicios_del_Gym.Properties {
             get {
                 object obj = ResourceManager.GetObject("Gym dumbbells on black background with copy sapce Gym dumbbells on black backgrou" +
                         "nd with copy sapce Photograph taken from above_", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Health_Club_and_Luxury_Gym_near_Tower_Bridge___Third_Space {
+            get {
+                object obj = ResourceManager.GetObject("Health Club and Luxury Gym near Tower Bridge _ Third Space", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap KXU_Fitness_Club___London__Flooring___Gym_Equipment {
+            get {
+                object obj = ResourceManager.GetObject("KXU Fitness Club - London_ Flooring & Gym Equipment", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -387,6 +467,16 @@ namespace Ejecicios_del_Gym.Properties {
         internal static System.Drawing.Bitmap Premium_Vector___Product_presentation_podium__white_stage__empty_white_pedestal {
             get {
                 object obj = ResourceManager.GetObject("Premium Vector _ Product presentation podium, white stage, empty white pedestal", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Premium_Vector___Simple_black_gradient_background_premium {
+            get {
+                object obj = ResourceManager.GetObject("Premium Vector _ Simple black gradient background premium", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

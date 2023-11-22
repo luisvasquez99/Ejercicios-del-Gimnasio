@@ -113,17 +113,35 @@ namespace Ejecicios_del_Gym
 
         private void btn_acceder_formadmin_Click(object sender, EventArgs e)
         {
-            
-            Form_grupos_musculares form1 = new Form_grupos_musculares();
-            this.Hide();
-            form1.Show();
+            if(tbx_usuario_ini.Text == "luis11" && tbx_contra_ini.Text == "11")
+            {
+                Form_grupos_musculares form1 = new Form_grupos_musculares();
+                this.Hide();
+                form1.Show();
+
+
+            }
+
+            if (string.IsNullOrEmpty(tbx_usuario_ini.Text) || string.IsNullOrEmpty(tbx_contra_ini.Text))
+
+            {
+                MessageBox.Show("Usuario o contraseña incorrecta");
+            }
+
         }
 
         private void btnregis_Click(object sender, EventArgs e)
         {
-            Form_grupos_musculares form1 = new Form_grupos_musculares();
-            this.Hide();
-            form1.Show();
+            {
+           
+
+
+            }
+
+            
+            {
+            
+            }
         }
 
         private void tbx_nom_KeyPress(object sender, KeyPressEventArgs e)
@@ -136,6 +154,52 @@ namespace Ejecicios_del_Gym
 
             }
 
+        }
+
+        private void pb_mostrar_Click(object sender, EventArgs e)
+        {
+            pb_ocultar.BringToFront();
+            tbx_contraseña.PasswordChar = '\0';
+        }
+
+        private void pb_ocultar_Click(object sender, EventArgs e)
+        {
+            pb_mostrar.BringToFront();
+            tbx_contraseña.PasswordChar = '*';
+        }
+
+        private void tbx_nom_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void pb_mostrar1_Click(object sender, EventArgs e)
+        {
+            pb_ocultar1.BringToFront();
+            tbx_contra_ini.PasswordChar = '\0';
+        }
+
+        private void pb_ocultar1_Click(object sender, EventArgs e)
+        {
+            pb_mostrar1.BringToFront();
+            tbx_contra_ini.PasswordChar = '*';
+        }
+
+        private void tbx_contraseña_TextChanged(object sender, EventArgs e)
+        {
+            if (tbx_contraseña.Text.Length >= 8)
+            {
+                MessageBox.Show("Maximo 8 caracteres verifique su contraseña");
+            }
+        }
+
+        private void tbx_contra_ini_TextChanged(object sender, EventArgs e)
+        {
+            if (tbx_contra_ini.Text.Length >= 8) 
+            {
+                MessageBox.Show("Máximo 8 caracteres verifique su contraseña");
+            }
+        
         }
     }
 }

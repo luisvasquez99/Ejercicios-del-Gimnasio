@@ -232,5 +232,32 @@
   <ItemGroup>
     <None Include="Resources\On air EVRY.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Health Club and Luxury Gym near Tower Bridge _ Third Space.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\KXU Fitness Club - London_ Flooring &amp; Gym Equipment.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %281%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Premium Vector _ Simple black gradient background premium.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\El Rinconcito de Nacho _ Patreon.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\descarga %282%29.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\bodybuilder, double biceps.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Arnold Schwarzenegger Poster Double Biceps Famous Pose _ Etsy.jpeg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

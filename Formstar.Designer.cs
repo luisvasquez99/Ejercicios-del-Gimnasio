@@ -109,7 +109,7 @@
             this.label1.ForeColor = System.Drawing.Color.Red;
             this.label1.Image = global::Ejecicios_del_Gym.Properties.Resources._9d95a5d0_abca_4e3d_b457_70bdde285c33;
             this.label1.ImageAlign = System.Drawing.ContentAlignment.TopCenter;
-            this.label1.Location = new System.Drawing.Point(173, 31);
+            this.label1.Location = new System.Drawing.Point(183, 28);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(513, 26);
             this.label1.TabIndex = 4;
